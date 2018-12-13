@@ -1,0 +1,110 @@
+body
+{
+	background-color: lightyellow;
+}
+
+h2
+{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.header
+{
+	background: darkgrey;
+	color: #36383a;
+	text-align: center;
+	font-family: arial;
+}
+
+.footer
+{
+	background: darkgrey;
+	margin-top: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #36383a;
+	text-align: center;
+	font-family: arial;
+}
+
+table
+{
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table, th, td
+{
+	border: 1px solid black;
+}
+
+tr:hover
+{
+	background-color: white;
+}
+
+tr:nth-child(odd)
+{
+	background-color: lightgreen;
+}
+
+tr:nth-child(even)
+{
+	background-color: lightblue;
+}
+
+/*menu*/
+.menu
+{
+	float: top;
+	list-style: none;
+	margin-top: 10px;
+	background: lightgreen;
+	padding-top: 5px;
+	height: 25px;
+}
+.menu li
+{
+	display: inline;
+}
+.menu li a
+{
+	padding: 5px 10px;
+	border-right: 2px solid #1a8c6f;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.menu li:last-child a
+{
+	border-right: none;
+}
+
+.menu li a:hover {
+	transition-duration: 0.4s;
+	background-color: #1a8c6f;
+	/*#1a8c6f*/
+}
+
+.tombol:hover
+{
+
+	transition-duration: 0.3s;
+	background-color: #ededed;
+}
+
+.tombol
+{
+	background-color: #bfbfbf;
+	padding-left: 8px;
+	padding-right: 8px;
+
